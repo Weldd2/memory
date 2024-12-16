@@ -6,16 +6,19 @@
 /*   By: antoinemura <antoinemura@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 22:16:01 by antoinemura       #+#    #+#             */
-/*   Updated: 2024/12/16 22:27:22 by antoinemura      ###   ########.fr       */
+/*   Updated: 2024/12/16 22:53:33 by antoinemura      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdint.h>
+#ifndef MEMORY_H
+# define MEMORY_H
 
-#define ARENA_BLOC_SIZE 65536
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# include <stdint.h>
+
+# define ARENA_BLOC_SIZE 65536
 
 typedef struct s_arena_mem_block_list
 {
@@ -42,3 +45,5 @@ void	ft_free_arena(void);
  * @return void* Pointeur vers la mémoire allouée ou NULL si la taille est zéro.
  */
 void	*ft_arena_alloc(size_t size);
+
+#endif
