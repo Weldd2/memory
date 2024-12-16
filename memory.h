@@ -6,9 +6,13 @@
 /*   By: antoinemura <antoinemura@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 22:16:01 by antoinemura       #+#    #+#             */
-/*   Updated: 2024/12/16 22:53:33 by antoinemura      ###   ########.fr       */
+/*   Updated: 2024/12/16 22:54:46 by antoinemura      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+* Concept found on : https://github.com/nevadeon/libndav
+*/
 
 #ifndef MEMORY_H
 # define MEMORY_H
